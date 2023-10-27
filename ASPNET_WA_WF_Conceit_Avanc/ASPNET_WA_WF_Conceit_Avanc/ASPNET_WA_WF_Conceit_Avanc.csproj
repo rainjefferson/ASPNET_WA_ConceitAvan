@@ -68,9 +68,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="wfRespostaSalarioMinimo.aspx" />
+    <Content Include="wfSalarioMinimo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wfRespostaSalarioMinimo.aspx.cs">
+      <DependentUpon>wfRespostaSalarioMinimo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfRespostaSalarioMinimo.aspx.designer.cs">
+      <DependentUpon>wfRespostaSalarioMinimo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfSalarioMinimo.aspx.cs">
+      <DependentUpon>wfSalarioMinimo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfSalarioMinimo.aspx.designer.cs">
+      <DependentUpon>wfSalarioMinimo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
