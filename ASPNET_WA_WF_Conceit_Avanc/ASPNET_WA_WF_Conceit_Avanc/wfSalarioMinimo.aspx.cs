@@ -16,6 +16,13 @@ namespace ASPNET_WA_WF_Conceit_Avanc
             {
                 lblLoginCookie.Text = "Login recuperado do cookie: " + Request.Cookies["login"].Value;
             }
+
+            if (Session["login"] == null)
+            {
+                Response.Redirect("~/LoginCookies.aspx");
+            }
+
+            lblSessionID.Text = Session.SessionID.ToString();
         }
 
         protected void RadioButtonOutro_CheckedChanged(object sender, EventArgs e)

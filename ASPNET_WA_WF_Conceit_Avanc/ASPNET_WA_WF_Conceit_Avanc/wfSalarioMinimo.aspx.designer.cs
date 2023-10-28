@@ -132,6 +132,15 @@ namespace ASPNET_WA_WF_Conceit_Avanc
         protected global::System.Web.UI.WebControls.Label lblLoginCookie;
 
         /// <summary>
+        /// lblSessionID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSessionID;
+
+        /// <summary>
         /// btnRemoveCookie control.
         /// </summary>
         /// <remarks>

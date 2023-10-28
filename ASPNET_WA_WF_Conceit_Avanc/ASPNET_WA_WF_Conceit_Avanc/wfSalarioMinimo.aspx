@@ -41,6 +41,9 @@
             <asp:Label ID="lblLoginCookie" runat="server"></asp:Label>
             <br />
             <br />
+            <asp:Label ID="lblSessionID" runat="server"></asp:Label>
+            <br />
+            <br />
             <asp:Button ID="btnRemoveCookie" runat="server" OnClick="btnRemoveCookie_Click" Text="Remover Cookie" />
 &nbsp;
             <asp:Button ID="btnListarCookies" runat="server" OnClick="btnListarCookies_Click" style="margin-bottom: 0px" Text="Listar Cookies" />

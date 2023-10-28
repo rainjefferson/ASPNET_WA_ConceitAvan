@@ -39,6 +39,10 @@ namespace ASPNET_WA_WF_Conceit_Avanc
                         cookieNomeUsuario.HttpOnly = true;
                         cookieNomeUsuario.Expires = DateTime.Now.AddMinutes(FormsAuthentication.Timeout.TotalMinutes);
                         Response.Cookies.Add(cookieNomeUsuario);
+
+                        //session
+                        Session["Login"] = txtLogin.Text;
+
                         Response.Redirect("~/wfSalarioMinimo.aspx");
                     }
                 }
